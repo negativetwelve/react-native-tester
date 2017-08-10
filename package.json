@@ -1,0 +1,48 @@
+{
+  "name": "react-native-tester",
+  "version": "0.1.0",
+  "description": "React Native Tester",
+  "files": [
+    "android",
+    "ios",
+    "js"
+  ],
+  "keywords": [
+    "android",
+    "ios",
+    "jolt",
+    "react-native"
+  ],
+  "author": "Mark Miyashita <negativetwelve@gmail.com> (https://github.com/negativetwelve)",
+  "contributors": [
+    {
+      "name": "Mark Miyashita",
+      "email": "negativetwelve@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/negativetwelve/react-native-tester.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/negativetwelve/react-native-tester/issues"
+  },
+  "homepage": "https://github.com/negativetwelve/react-native-tester",
+  "engines": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-jolt": "^1.0.2",
+    "jest-preset-jolt": "^1.0.1"
+  },
+  "eslintConfig": {
+    "extends": "jolt"
+  },
+  "jest": {
+    "preset": "jest-preset-jolt"
+  },
+  "scripts": {
+    "lint": "eslint js",
+    "test": "jest"
+  }
+}
