@@ -1,0 +1,8 @@
+{
+  "name": "react-native",
+  "version": "0.47.1",
+  "private": true,
+  "dependencies": {
+    "react-native": "0.47.1"
+  }
+}
