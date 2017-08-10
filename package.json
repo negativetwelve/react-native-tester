@@ -1,6 +1,7 @@
 {
   "name": "react-native-tester",
   "version": "0.1.0",
+  "private": true,
   "description": "React Native Tester",
   "files": [
     "android",
@@ -36,6 +37,9 @@
     "jest-preset-jolt": "^1.0.1",
     "lerna": "^2.0.0"
   },
+  "workspaces": [
+    "versions/*"
+  ],
   "eslintConfig": {
     "extends": "jolt"
   },

@@ -4,5 +4,9 @@
   "private": true,
   "dependencies": {
     "react-native": "0.47.1"
+  },
+  "devDependencies": {
+    "eslint-config-jolt": "^1.0.2",
+    "jest-preset-jolt": "^1.0.1"
   }
 }
