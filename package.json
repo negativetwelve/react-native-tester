@@ -33,6 +33,7 @@
   "engines": {},
   "dependencies": {},
   "devDependencies": {
+    "babel-preset-jolt": "^1.1.0",
     "eslint-config-jolt": "^1.0.2",
     "jest-preset-jolt": "^1.0.1",
     "lerna": "^2.0.0"
@@ -41,6 +42,9 @@
     "packages/*",
     "versions/*"
   ],
+  "babel": {
+    "presets": ["jolt"]
+  },
   "eslintConfig": {
     "extends": "jolt"
   },
