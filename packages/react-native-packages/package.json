@@ -1,0 +1,14 @@
+{
+  "name": "react-native-packages",
+  "version": "0.1.0",
+  "dependencies": {
+    "react-native-ux-cam": "^3.4.0"
+  },
+  "peerDependencies": {
+    "react-native": ">= 0.40.0"
+  },
+  "devDependencies": {
+    "eslint-config-jolt": "^1.0.2",
+    "jest-preset-jolt": "^1.0.1"
+  }
+}

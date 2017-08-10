@@ -38,6 +38,7 @@
     "lerna": "^2.0.0"
   },
   "workspaces": [
+    "packages/*",
     "versions/*"
   ],
   "eslintConfig": {
